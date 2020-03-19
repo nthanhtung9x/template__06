@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
+.grid {
+    display:block;
+    width: 100%;
+}
+
+.wide {
+    width: 1200px;
+    max-width: 96%;
+    margin:0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root {
+    --height-header:4.8rem;
+}
+
+hr {
+    background: #eee;
+    opacity: 0.4;
+    margin: 24px;
+}
+
+.profile,.accord,.interests,.hey,.upload,.status,.event,.request,.ads,.bug {
+    background-color: #fff;
+    box-shadow: 0 0 2px 1px grey;
+}

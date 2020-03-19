@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.12.1-web/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__left">
+                <ul class="header__list">
+                    <li class="header__item c-0">
+                        <a href="" class="header__link">
+                            <i class="header__icon fa fa-home"></i>
+                            <span class="header__logo">LOGO</span> 
+                        </a>
+                    </li>
+                    <li class="header__item sc-0">
+                        <a href="" class="header__link">
+                            <i class="header__icon fa fa-globe"></i>
+                            
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <i class="header__icon fa fa-user"></i>
+                            
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <i class="header__icon fa fa-envelope"></i>
+                            
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <i class="header__icon fa fa-bell"></i>
+                            <span class="info__count">3</span>
+                        </a>
+
+                        <div class="noti__wrap">
+                            <ul class="noti__list">
+                                <li class="noti__item">
+                                    <a href="" class="noti__link">One new friend request</a>
+                                </li>
+                                <li class="noti__item">
+                                    <a href="" class="noti__link">One new friend request</a>
+                                </li>
+                                <li class="noti__item">
+                                    <a href="" class="noti__link">One new friend request</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__right">
+                    <a href="" class="user__link">
+                        <img src="./assets/images/avatar2.png" alt="">
+                    </a>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="grid">
+                <div class="wide">
+                    <div class="row">
+                        <div class="col l-3 m-4 c-0">
+                            <div class="profile">
+                                <h4 class="profile__heading">My Profile</h4>
+                                <h4 class="profile__avatar">
+                                    <img src="./assets/images/avatar3.png" alt="">
+                                </h4>
+                                <hr>
+                                <p class="profile__text">
+                                    <i class="profile__icon fas fa-pencil-alt"></i>
+                                    Designer, UI
+                                </p>
+                                <p class="profile__text">
+                                    <i class="profile__icon fa fa-home"></i>
+                                    London, UK
+                                </p>
+                                <p class="profile__text">
+                                    <i class="profile__icon fa fa-birthday-cake"></i>
+                                    April 1, 1988
+                                </p>
+                            </div>
+
+                            <div class="accord">
+                                <ul class="accord__list">
+                                    <li class="accord__item">
+                                        <a onclick="myFunction('item1')" class="accord__link">
+                                            <i class="accord__icon fas fa-circle-notch"></i>
+                                            My Groups
+                                        </a>
+                                        <ul class="item__list" id="item1">
+                                            <li class="item__child">Some text...</li>
+                                        </ul>
+                                    </li>
+                                    <li class="accord__item">
+                                        <a onclick="myFunction('item2')" class="accord__link">
+                                            <i class="accord__icon far fa-calendar-check"></i>
+                                            My Events
+                                        </a>
+                                        <ul class="item__list" id="item2">
+                                            <li class="item__child">Some other text..</li>
+                                        </ul>
+                                    </li>
+                                    <li class="accord__item">
+                                        <a onclick="myFunction('item3')" class="accord__link">
+                                            <i class="accord__icon fa fa-users"></i>
+                                            My Photos
+                                        </a>
+                                        <ul class="item__list" id="item3">
+                                            <li class="item__child">
+                                                <div class="row">
+                                    
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                    <div class="col l-6 m-6">
+                                                        <img src="./assets/images/lights.jpg" alt="" class="item__img">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="interests">
+                                <h4 class="interests__heading">Interests</h4>
+                                <p class="interests__tag">
+                                    <span class="tag__name">News</span>
+                                    <span class="tag__name">W3Schools</span>
+                                    <span class="tag__name">Games</span>
+                                    <span class="tag__name">Friends</span>
+                                    <span class="tag__name">Games</span>
+                                    <span class="tag__name">Friends</span>
+                                    <span class="tag__name">News</span>
+                                </p>
+                            </div>
+
+                            <div class="hey">
+                                <h4 class="hey__heading">Hey!</h4>
+                                <p class="hey__text">People are looking at your profile. Find out who.</p>
+                                <span class="hey__btn" onclick="document.getElementsByClassName('hey')[0].style.display = 'none'">X</span>
+                            </div>
+                        </div>
+                        <div class="col l-7 m-8 c-12">
+                            <div class="upload">
+                                <p class="upload__text">Social Media template by w3.css</p>
+                                <input type="text" class="upload__input" value ="Status: Feeling Blue">
+                                <a href="" class="upload__link">
+                                    <i class="fas fa-pencil-alt"></i>
+                                    Post
+                                </a>
+                            </div>
+
+                            <div class="status">
+                                <div class="status__heading">
+                                    <div class="left__heading">
+                                        <span class="status__avatar">
+                                            <img src="./assets/images/avatar2.png" alt="">
+                                        </span>
+                                        <span class="status__name">Nguyễn Thanh Tùng</span>
+                                    </div>
+
+                                    <div class="right__heading">
+                                        <span class="status__time">1 min</span>
+                                    </div>
+                                </div>
+
+                                <div class="status__main">
+                                    <div class="status__content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+
+                                    <div class="status__img">
+                                        <div class="row">
+                                            <div class="col l-6 m-6 c-6">
+                                                <img class="img__item" src="./assets/images/lights.jpg" alt="">
+                                            </div>
+                                            <div class="col l-6 m-6 c-6">
+                                                <img class="img__item" src="./assets/images/nature.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="status__control">
+                                        <a class="status__btn" id="like" onclick="changeLike(0)">
+                                            <i class="btn__like fa fa-thumbs-up"></i>
+                                            &nbsp; Like
+                                        </a>
+                                        <a class="status__btn" id="comment1" onclick="showComment(0)">
+                                            <i class="btn__icon fa fa-comment"></i>
+                                            &nbsp; Comment
+                                        </a>
+                                        <div class="comment__wrap">
+                                            <div class="comment__author">
+                                                <span class="comment__avatar">
+                                                    <img src="./assets/images/avatar3.png" alt="">
+                                                </span>
+                                                <div class="comment__form">
+                                                    <input type="text" class="comment__input" placeholder="Nhập bình luận của bạn">
+                                                    <a class="comment__btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="comment__author">
+                                                <span class="comment__avatar">
+                                                    <img src="./assets/images/avatar3.png" alt="">
+                                                </span>
+                                                <div class="comment__user">
+                                                    <span class="comment__name">Triều Vỹ</span>:
+                                                    <span class="comment__text">WOW beautiful</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="status">
+                                <div class="status__heading">
+                                    <div class="left__heading">
+                                        <span class="status__avatar">
+                                            <img src="./assets/images/avatar3.png" alt="">
+                                        </span>
+                                        <span class="status__name">Thảo Vy</span>
+                                    </div>
+
+                                    <div class="right__heading">
+                                        <span class="status__time">6 min</span>
+                                    </div>
+                                </div>
+
+                                <div class="status__main">
+                                    <div class="status__content">
+                                        Have you seen this?
+                                    </div>
+
+                                    <div class="status__img">
+                                        <div class="row">
+                                            <div class="col l-12 m-12 c-12">
+                                                <img class="img__item" src="./assets/images/lights.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="status__control">
+                                        <a class="status__btn" id="like" onclick="changeLike(1)">
+                                            <i class="btn__like btn__liked fa fa-thumbs-up"></i>
+                                            &nbsp; Like
+                                        </a>
+                                        <a class="status__btn" id="comment2" onclick="showComment(1)">
+                                            <i class="btn__icon fa fa-comment"></i>
+                                            &nbsp; Comment
+                                        </a>
+                                        <div class="comment__wrap">
+                                            <div class="comment__author">
+                                                <span class="comment__avatar">
+                                                    <img src="./assets/images/avatar3.png" alt="">
+                                                </span>
+                                                <div class="comment__form">
+                                                    <input type="text" class="comment__input" placeholder="Nhập bình luận của bạn">
+                                                    <a class="comment__btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="comment__author">
+                                                <span class="comment__avatar">
+                                                    <img src="./assets/images/avatar3.png" alt="">
+                                                </span>
+                                                <div class="comment__user">
+                                                    <span class="comment__name">Vũ Trương</span>:
+                                                    <span class="comment__text">wowwwwww</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-0 c-0">
+                            <div class="event">
+                                <h4 class="event__heading">Upcoming Events:</h4>
+                                <h4 class="event__img">
+                                    <img src="./assets/images/forest.jpg" alt="">
+                                </h4>
+                                <p class="event__name">Holiday</p>
+                                <p class="event__time">Friday 15:00</p>
+                                <a href="" class="event__info">Info</a>
+                            </div>
+
+                            <div class="request">
+                                <h4 class="request__heading">Friend Request</h4>
+                                <h4 class="request__img">
+                                    <img src="./assets/images/avatar6.png" alt="">
+                                </h4>
+                                <p class="request__name">Cô Vy</p>
+
+                                <a href="" class="request__btn accept">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                                <a href="" class="request__btn remove">
+                                    <i class="fas fa-times"></i>
+                                </a>
+
+                            </div>
+
+                            <div class="ads">
+                                <h4 class="ads__heading">ADS</h4>
+                            </div>
+
+                            <div class="bug">
+                                <h4 class="bug__heading">
+                                    <i class="fa fa-bug"></i>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+
+</body>
+</html>
